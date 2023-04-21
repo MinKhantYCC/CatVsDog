@@ -13,3 +13,8 @@ to feed these samples into our model instead of feeding all images at once.
 ## Result
 Need to train nearly 2 Hrs for 10 epochs on Window 11, i3-10th with 8Gb Memory.
 Future Work => Test with ResNet50 and MobileNetV2.
+
+## Files Description
+CatVsDog-CNN2.ipynb is for model training.
+model1_catsVSdogs_10epoch.h5 is my pre-trained model file (output from CatVsDog-CNN2.ipynb)
+CatVsDog-GUI.py is used for API with streamlit.
